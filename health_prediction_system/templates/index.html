@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Prediction System</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Health Prediction System</h1>
+    <form action="/predict" method="POST">
+        <label for="param1">Health Parameter 1:</label>
+        <input type="text" id="param1" name="param1" required><br>
+        <label for="param2">Health Parameter 2:</label>
+        <input type="text" id="param2" name="param2" required><br>
+        <label for="param3">Health Parameter 3:</label>
+        <input type="text" id="param3" name="param3" required><br>
+        <label for="param4">Health Parameter 4:</label>
+        <input type="text" id="param4" name="param4" required><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
